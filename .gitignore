@@ -1,0 +1,30 @@
+# ─── Python Caches ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+
+# ─── Environment & Config Files ────────────────────────────
+.env
+.venv/
+venv/
+env/
+
+# ─── MacOS & Windows System Junk ──────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Model Files (Too Big for GitHub) ─────────────────────
+*.h5
+*.pkl
+*.pt
+*.tflite
+
+# ─── Streamlit Config (if used) ───────────────────────────
+.streamlit/
+
+# ─── Jupyter Notebook Checkpoints ─────────────────────────
+.ipynb_checkpoints/
+
+# ─── VSCode & IDE Stuff ───────────────────────────────────
+.vscode/
+.idea/
