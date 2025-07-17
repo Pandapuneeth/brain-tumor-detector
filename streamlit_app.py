@@ -1,3 +1,14 @@
+import os
+import gdown
+
+# Download model if not present
+MODEL_PATH = "brain_tumor_model.h5"
+MODEL_URL = "https://drive.google.com/uc?id=1G2g4gsEOWWkuZ5ggVT7GdxgflwHbWkQc"
+
+if not os.path.exists(MODEL_PATH):
+    with st.spinner("🔄 Downloading model weights..."):
+        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+
 import streamlit as st
 import numpy as np
 from PIL import Image
