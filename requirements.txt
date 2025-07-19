@@ -1,7 +1,7 @@
 streamlit
-tensorflow==2.13.0
+tensorflow==2.11.0
 keras
 numpy
 pillow
 gdown
-opencv-python-headless
+
